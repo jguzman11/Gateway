@@ -1,0 +1,325 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+/*The Navbar*/
+
+ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: inline;
+  font-size: 19px;
+  line-height: 40px;
+  border-bottom: 1px solid #888;
+}
+.icon {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-decoration: none;
+  border-radius: 30%;
+}
+
+.social {
+  text-align: center;
+  width: 100%;
+  padding-top: 30px;
+}
+
+header-right {
+  margin-bottom: 10px;
+}
+header {
+  /* Styles the top navigation bar */
+  overflow: hidden;
+  background-color: #383937;
+}
+
+header a {
+  /* Styles the Nav links */
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Parallax effect*/
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #17202A;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-1 {
+  background-image: url("https://bit.ly/2sGyeRu");
+  min-height: 100%;
+}
+
+.img-2 {
+  background-image: url("https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg?cs=srgb&dl=close-up-photography-of-cherry-blossom-tree-1440476.jpg&fm=jpg");
+  min-height: 400px;
+}
+
+.img-3 {
+  background-image: url("https://images.pexels.com/photos/590478/pexels-photo-590478.jpeg?cs=srgb&dl=asia-japan-japanese-japanese-culture-590478.jpg&fm=jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #121312;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+}
+
+.box1 p {
+  padding-left: 65px;
+  padding-right: 65px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+
+h2 {
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+p {
+  padding-left: 35px;
+  padding-right: 35px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 45px;
+  font-size: 19px;
+}
+
+/* max device*/
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .img-1,
+  .img-2,
+  .img-3 {
+    background-attachment: scroll;
+  }
+}
+/* End of Parallax Effect */
+
+/* To Do Page*/
+
+.hero {
+  background: center url("https://bit.ly/2GdBlU3");
+  height: 50%;
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.hero h1 {
+  margin-top: 0;
+  text-shadow: 2px 2px black;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+/* }
+.card {
+  width: 50%;
+  height: 700px; */
+}
+.card a {
+  text-decoration: none;
+  color: #17202A;
+  font-weight: 200;
+/* }
+.card-body {
+  width: 80%;
+  margin: 0 auto; */
+}
+
+.cardTodo {
+  height: 300px;
+  width: 500px;
+}
+
+/* IT Page */
+
+
+.hero3 {
+  background: center url("https://bit.ly/38qX6vM");
+  height: 50%;
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  width: 50%;
+  height: 700px;
+}
+
+.card-body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cardIT {
+  height: 320px;
+  width: 400px;
+}
+
+/*this is the beginning of ContactPage */
+
+.hero2 {
+  background: center url("https://bit.ly/38qX6vM");
+  height: 50%;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.hero2 h1,
+.hero3 h1 {
+  margin-top: 0;
+}
+
+/* Form */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #8f928c;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+}
+/* [ specify */
+input[type="submit"]:hover {
+  background-color: #c33c33;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+}
+
+.column.one {
+  padding-left: 10%;
+}
+
+.column.two {
+  padding-right: 10%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* .tokyo_map{
+  width=500px 
+  height=650px
+  frameborder=0px 
+  style-border:0
+} */
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column4,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/*this is the end  */
+
+/* footer */
+
+.footer {
+  width: 20%;
+  height: 25px;
+  text-align: center;
+}
